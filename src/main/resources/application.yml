@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    rest:
+      uris:
+        - localhost:9200
+      username: elastic
+      password: changeme
+
+server:
+  port: 9090
